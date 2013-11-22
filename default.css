@@ -1,0 +1,69 @@
+body {
+    /*padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    //background: #E2E2E2;
+}
+hr{
+    margin: 5px 0;
+}
+
+/*Taille du titre du calendrier*/
+.fc-header-title h2{
+	font-size: 20px;
+	font-family: Aller Light;
+	
+}           
+
+/*Taille de la police des jours*/
+.fc-widget-header{
+	font-size:12px;
+	font-family: Aller Light;
+}
+
+.container{
+	 margin-top: 10px;
+}
+
+#calendar{
+    margin-bottom: 2%;
+}
+
+.span2 select{
+    width: 100%;
+}
+
+.fc-content{
+    background: rgba(250, 250, 250, 0.9);
+    box-shadow: -3px 3px 10px #eaeaea;
+}
+
+#informations{
+    background: rgba(250, 250, 250, 0.9);
+    border-radius: 10px;
+    border: 1px solid rgb(220, 220, 220);
+    box-shadow: 0 0 10px #eaeaea inset;
+	
+}
+span.info-title{
+    border-radius: 5px 5px 0 0;
+    background: rgb(240, 240, 240);
+    padding: 5px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+	font-family: Aller Light;
+}
+.close, .close:hover{
+    color: red;
+}
+.close:hover{
+    opacity: 1;
+}
+button a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+button a:hover{
+    color:#FFFFFF;
+    text-decoration: none;
+}
